@@ -1,0 +1,67 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: aliceblue;
+}
+#header {
+    font-weight: 600;
+    font-size: 32px;
+    padding: 2px;
+    margin-top: -10px;
+    text-align: center;
+}
+span {
+    font-size: 36px;
+    font-weight: 800;
+    color: brown;
+}
+#formulario {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    flex-direction: column;
+}
+.container {
+    margin: auto;
+    display: flex;
+}
+.medida {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+#base_triangulo {
+    margin-left: 10px;
+    width: 150px;
+    height: 30px;
+    border-radius: 12px;
+    border: 1px solid;
+}
+#altura_triangulo {
+    margin-left: 10px;
+    width: 150px;
+    height: 30px;
+    border-radius: 12px;
+    border: 1px solid; 
+}
+.nome_medida {
+    font-size: 18px;
+    font-weight: 500;
+}
+#botao {
+    width: 200px;
+    height: 60px;
+    font-weight: 300;
+    margin-top: 50px;
+    border-radius: 16px;
+    border: 2px solid;
+    border-color: black;
+    color: purple;
+    text-align: center;
+    font-size: 36px;
+    cursor: pointer;
+}
+.texto_echo {
+    text-align: center;
+    font-size: 20px;
+}
